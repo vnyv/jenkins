@@ -30,7 +30,7 @@ Building and debugging process is described [here](https://jenkins.io/doc/develo
 
 If you want simply to have the `jenkins.war` file as fast as possible without tests, run:
 
-    mvn clean package -pl war -am -DskipTests -Dfindbugs.skip
+    npm run build && mvn clean package -pl war -am -DskipTests -Dfindbugs.skip
 
 The WAR file will be created in `war/target/jenkins.war`.
 After that you can start Jenkins using Java CLI ([guide](https://wiki.jenkins.io/display/JENKINS/Starting+and+Accessing+Jenkins)).

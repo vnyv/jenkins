@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-reinvented",
+  "version": "1.0.0",
+  "description": "Jenkins automation server reinvented for frontend developers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnyv/jenkins.git"
+  },
+  "keywords": [
+    "jenkin",
+    "frontend",
+    "reinvent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vnyv/jenkins/issues"
+  },
+  "homepage": "https://github.com/vnyv/jenkins#readme",
+  "dependencies": {
+    "webpack": "^4.16.4"
+  }
+}
